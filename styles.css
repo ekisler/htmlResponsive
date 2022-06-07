@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Poppins:wght@300&display=swap');
+
+
+/* Sobrescribe el estilo por defecto y establece el padding y el margen a cero */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0
+}
+
+/* Texto color blanco en todas partes */
+
+body {
+    font-family: "lato", sans-serif;
+    color: white;
+}
+
+/* Hacer todo el texto de los links negro y sin decoración*/
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px 0;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 300;
+    margin: 10px 0;
+    line-height: 1.2;
+}
+
+p {
+    font-size: 30px;
+}
+
+/* Todas las imágenes deben ser del mismo tamañño que su contenedor*/
+
+img {
+    width: 100%;
+}
+
+/* Remover el estilo a los elementos de una lista */
+
+li {
+    list-style-type: none;
+}
+
+p {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+
+/* Add padding around the footer as well */
+
+footer {
+    background-color: rgb(88, 214, 236);
+    padding: 20px 10px;
+}
+
+/* Sets all link texts to white and puts margin to the left and right */
+
+footer a {
+    color: white;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: #9867C5;
+    border-bottom: 2px solid rgb(88, 168, 206);
+  }
+
+/* Centra el elemento y establece un ancho máximo y se asegura que los elementos puedan fluir através*/
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    overflow: visible;
+}
+
+/* Aplica el color de fondo, altura y "padding"*/
+
+.navbar {
+    background-color: rgb(88, 214, 236);
+    height: 70px;
+    padding: 0 30px;
+}
+
+/* Establece el tamaño de la fuente (font size), reduce el peso de loa fuente (font-weight), agrega margen y alto de línea (line height) */
+
+.navbar h1 {
+    font-size: 30px;
+    font-weight: 300;
+    margin: 10px 0;
+    line-height: 1.2;
+}
+
+.navbar .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+/* Cambia el color de ambos enlaces a blanco, agrega padding entre si y margen también */
+
+.navbar a {
+    color: white;
+    padding: 9px;
+    margin: 0 10px;
+}
+
+.navbar a:hover {
+    color: #9867C5;
+    border-bottom: 3px solid #9867C5;
+}
+
+.showcase {
+    height: 300px;
+    background-color: rgb(88, 214, 236);
+}
+
+/* Añade margen bajo el texto */
+
+.showcase p {
+    margin-bottom: 30px;
+}
+
+/* Añade una sombra bajo la imágen */
+
+.showcase img {
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2);
+}
+
+/* Añade algo de padding al contenido del formulario */
+
+.showcase-form {
+    padding-left: 7px;
+}
+
+.grid-item-1,
+.grid-item-2 {
+    position: relative;
+    top: 50px;
+}
+
+/* Esto creará dos columnas dentro del contenedor para el área de presentación*/
+.grid {
+    overflow: visible;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.showcase input[type='email'] {
+    padding: 10px 70px 10px 0;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    padding-left: 6px;
+}
+
+.btn {
+    border-radius: 6px;
+    padding: 12px 20px;
+    background:#9867C5;
+    border: none;
+    margin-left: 10px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2)
+}
+
+.showcase-form {
+    margin: auto;
+}
+
+/* Change typeface and its size */
+.little-info {
+    font-size: 15px;
+    font-family: "poppins", sans-serif;
+}
+
+
+
+/* Centra el conetenedor, aplica un ancho máximo*/
+
+.lower-container {
+    margin: 120px auto;
+    padding: 0;
+    max-width: 1400px;
+    text-align: center;
+}
+
+/* Apunta a todos los elementos h3 con clase CSS title */
+
+.title {
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+/* Apunta a todos los parrafos con la clase CSS text */
+
+.text {
+    color: black;
+    font-size: 19px;
+    width:100%;
+    padding: 10px;
+    margin: 0, 20px;
+    text-align: justify;
+}
+
+/* Mostrar horizontalmente, poner un poco de espacio alrededor */
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Mostrar horizontalmente, poner un poco de espacio alrededor */
+
+.stats {
+    padding: 45px 50px;
+    text-align: center;
+}
+
+/* Aplicar margen y ancho */
+
+.stat {
+    margin: 0 30px;
+    text-align: center;
+    width: 800px;
+}
+
+/* Agragando los iconos*/
+
+.stats .fa {
+    color: purple;
+}
+
+.testimonial {
+    color: black;
+    padding: 40px;
+}
+
+/* Envuelve la imagen dentro de una figura circular y define su altura para que tome todo el alto de su elemento padre */
+
+.testimonial img {
+    height: 100%;
+    clip-path: circle();
+}
+
+/* Alinea el texto al centro */
+
+.testimonial h3 {
+    text-align: center;
+}
+
+/* Crear un grid de tres columnas equidistantes. Definir un espaciado de 40px entre ellas */
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+/* Crear una tarjeta en blanco con sombreado alrededor */
+
+.card {
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: -7px -7px 20px rgba(0, 0, 0, 0.2),
+                 7px  7px 20px rgba(0, 0, 0, 0.2)
+}
+
+.circle {
+    background-color: trasnparent;
+    border: 3px solid rgb(88, 214, 236);
+    height: 90px;
+    position: relative;
+    top: -30px;
+    left: 120px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 90px;
+}
+
+/* Tablets y pantallas más pequeñas */
+
+@media(max-width: 768px) {
+    .grid,
+    .grid-3  {
+        grid-template-columns: 1fr;
+    }
+
+    .stats .flex {
+        flex-direction: column;
+    }
+  
+    .stats {
+        text-align: center;
+    }
+
+    /* Esto restablece el ancho del contendor de la imagen y agrega margen a la izquierda 
+*/
+
+    .image {
+        width: 600px;
+        margin-left: 80px;
+    }
+    
+/* Cambia las secciones de servicio de lado-a-lado para que cada una se posicione en una sóla linea. Centra el texto. */
+
+    .stat {
+        width: 100%;
+        padding-right: 80px;
+    }
+
+    
+/* Mueve el círculo al centro de la tarjeta  */
+
+    .circle {
+        background-color: transparent;
+        border: 3px solid (88, 214, 236);
+        height: 90px;
+        position: relative;
+        top: -30px;
+        left: 270px;
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        width: 90px;
+    }
+
+    /* Alinear todo el texto al centro. Esto moverá todo el texto, incluyendo el formulario al centro.*/
+
+    .showcase {
+        height: auto;
+        text-align: center;
+    }
+}
+
+/* Dispositivos móviles */
+
+@media(max-width: 500px) {
+    .navbar {
+        height: 100px;
+    }
+
+/* Cambia la alineación. El logo del título se queda en la parte superior, los enlaces de navegación ahora se muestran debajo*/
+
+.navbar .flex {
+    flex-direction: column;
+}
+
+/* Cuando pasamos encima el ratón, retienen el texto blanco y cambia el borde a negro */
+
+.navbar a:hover {
+    color: white;
+    border-bottom: 2px solid black;
+}
+
+/* Establecer el color púrpura para el fondo de los enlaces de navegación, redondear las esquinas de los bordes y darle algo de espaciado*/
+
+.navbar ul {
+    background: #9867C5;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+
+/*  Alinear el texto al centro */
+
+.showcase {
+    height: auto;
+    text-align: center;
+}
+
+/* Reducir el tamaño de la fuente */
+
+.little-info {
+    font-size: 13px;
+}
+
+/* Reducir el ancho de la imágen */
+
+.image {
+    width: 350px;
+    margin-left: 70px;
+}
+
+.stat {
+    margin-bottom: 40px;
+}
+
+/* Mover el círculo una vez más */
+
+.circle {
+    background-color: transparent;
+    border: 3px solid (88, 214,236);
+    height: 90px;
+    position: relative;
+    top: -30px;
+    left: 150px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width:90px;
+}
+}
