@@ -5,4 +5,4 @@ Website Responsivo
 
 The full tutorial for this project is published on [FreeCodeCamp.](https://www.freecodecamp.org/news/css-flexbox-and-grid-tutorial/)
 
-![Screenshot](./images/responsive.png)
+![Screenshot](./images/responsivo.png)
